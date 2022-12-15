@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Croissant</title>
     <style>
-      h1 {
-        text-align: center;
+      body {
+        background-color: rgb(241, 219, 146);
       }
-      p {
+      .container {
+        border: solid 1px black;
         text-align: center;
+        width: 100%;
       }
       .headingimage1 {
         width: 60px;
@@ -18,9 +20,15 @@
       .headingimage2 {
         width: 80px;
       }
-      .container {
-        margin: 0 350px 0 350px;
-        border: solid 1px black;
+
+      .links {
+        font-size: 18px;
+        color: rgb(117, 93, 12);
+        text-decoration: none;
+        padding: 10px;
+      }
+      .links:hover {
+        color: rgb(179, 152, 66);
       }
     </style>
   </head>
@@ -42,7 +50,10 @@
         named for its historical crescent shape. Croissants and other
         viennoiserie are made of a layered yeast-leavened dough
       </p>
-      <p><a href="#">Home</a> <a href="#">Photo</a> <a href="#">Contact</a></p>
+      <div>
+        <a href="#" class="links">Home </a> <a href="#" class="links">Photo </a>
+        <a href="#" class="links">Contact </a>
+      </div>
     </div>
   </body>
 </html>
