@@ -2,7 +2,6 @@ body {
   background-color: rgb(241, 219, 146);
 }
 .container {
-  border: solid 1px black;
   text-align: center;
   width: 100%;
 }
