@@ -1,22 +1,53 @@
 body {
   background-color: rgb(241, 219, 146);
 }
-.container {
+h1 {
   text-align: center;
-  width: 100%;
 }
-.headingimage1 {
-  width: 60px;
+p {
+  padding: 0 5px;
+  margin: 0 0;
+  line-height: 1.5;
 }
-.headingimage2 {
-  width: 80px;
+.container {
+  padding: 20px 200px;
+}
+.zoom {
+  transition: all 0.3s ease-in-out;
+}
+.zoom:hover {
+  transform: scale(1.5) rotate(360deg);
+}
+.grid {
+  display: grid;
 }
 
+.grid-body {
+  grid-template-columns: 1fr 1fr;
+  margin: 20px 200px;
+  padding: 10px;
+  background: rgb(228, 213, 166);
+  border-radius: 6px;
+}
+.grid img {
+  width: 300px;
+}
+.link {
+  font-size: 18px;
+  color: rgb(117, 93, 12);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.link:hover {
+  color: rgb(179, 152, 66);
+}
 .links {
+  text-align: center;
   font-size: 18px;
   color: rgb(117, 93, 12);
   text-decoration: none;
   padding: 10px;
+  transition: all 0.3s ease-in-out;
 }
 .links:hover {
   color: rgb(179, 152, 66);
