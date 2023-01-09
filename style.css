@@ -10,7 +10,7 @@ p {
   line-height: 1.5;
 }
 .container {
-  padding: 20px 200px;
+  padding: 20px 100px;
 }
 .zoom {
   transition: all 0.3s ease-in-out;
@@ -21,16 +21,21 @@ p {
 .grid {
   display: grid;
 }
-
+.contact {
+  text-align: center;
+  padding: 200px 0;
+}
 .grid-body {
   grid-template-columns: 1fr 1fr;
   margin: 20px 200px;
   padding: 10px;
-  background: rgb(228, 213, 166);
+  background: rgb(247, 235, 199);
   border-radius: 6px;
+  gap: 5px;
 }
 .grid img {
-  width: 300px;
+  width: 100%;
+  display: block;
 }
 .link {
   font-size: 18px;
@@ -51,4 +56,16 @@ p {
 }
 .links:hover {
   color: rgb(179, 152, 66);
+}
+
+@media (max-width: 960px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+    margin: 0px 0px;
+    padding: 0px;
+  }
+  .container {
+    padding: 20px 50px;
+  }
 }
